@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "slimehead",
+  "version": "${version}",
+  "name": "SlimeHead",
+  "description": "无法描述的点子",
+  "authors": [
+    "Rinkore28"
+  ],
+  "contact": {
+    "website": "https://github.com/Rinkore28/SlimeHead",
+    "repo": "https://github.com/Rinkore28/SlimeHead"
+  },
+  "license": "MIT",
+  "icon": "assets/slimehead/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.github.rinkore28.slimehead.client.EntryClient"
+    ],
+    "main": [
+      "com.github.rinkore28.slimehead.core.Entry"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
